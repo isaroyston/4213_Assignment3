@@ -1,3 +1,44 @@
-
-processed_data/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Dataset and preprocessed data (keep label_mappings.json)
+processed_data/train/
+processed_data/validation/
+processed_data/test/
+
+# Training results and model checkpoints
+full_finetuning_results/
+lora_results/
+full_finetuning_model/
+lora_model/
+*.pth
+*.pt
+*.bin
+*.ckpt
+
+# Logs
+*.log
+wandb/
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
