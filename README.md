@@ -52,6 +52,19 @@ Models and results are saved to:
 
 ---
 
+## Supplementary Visualizations
+
+The `visuals.ipynb` notebook contains additional visualizations and detailed analyses that supplement the main report, including:
+- Training and validation loss curves over epochs
+- Confusion matrices for both fine-tuning methods
+- Per-class precision, recall, and F1 scores
+- Learning rate schedules and gradient norm plots
+- Comparative performance breakdowns
+
+These materials provide deeper insights into model behavior and training dynamics but are excluded from the main report due to space constraints.
+
+---
+
 ## Repository Structure
 ```
 ├── main.py                    # Entry point to reproduce results
